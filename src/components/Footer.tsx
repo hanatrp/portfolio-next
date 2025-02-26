@@ -4,6 +4,8 @@ import { RxGithubLogo, RxInstagramLogo, RxLinkedinLogo } from "react-icons/rx";
 import Link from "next/link";
 
 const Footer = () => {
+
+  const getTime = new Date().getFullYear()
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-[22] ">
       <div className="w-full flex flex-col items-center justify-center m-auto">
@@ -21,7 +23,7 @@ const Footer = () => {
             <RxGithubLogo />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/hana-nur-aisyah-8591b8222/"
+            href="https://www.linkedin.com/in/hana-nur-aisyah/"
             className=" cursor-pointer m-9"
           >
             <RxLinkedinLogo />
@@ -29,7 +31,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Hana Nur Aisyah 2024 Inc. All rights reserved
+          &copy; Hana Nur Aisyah {getTime} Inc. All rights reserved
         </div>
       </div>
     </div>

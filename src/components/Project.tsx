@@ -17,6 +17,12 @@ const Projects = () => {
           description="A banking app for access and manage account and transactions. Built with Next.js, TypeScript, Tailwind CSS, Prisma ORM. "
           link="https://banking-amber.vercel.app/"
         />
+        <ProjectCard
+          src="/travass.png"
+          title="Travass - Company Profile"
+          description="A Company Profile website. Built with Next.js, TypeScript, Tailwind CSS. "
+          link="https://company-profile-hana.vercel.app/"
+        />
       </div>
     </div>
   );

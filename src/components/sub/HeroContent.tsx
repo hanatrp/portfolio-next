@@ -51,7 +51,7 @@ const HeroContent = () => {
           Indonesia.
         </motion.p>
         <motion.a
-          href="https://drive.google.com/file/d/1NCt7ACdpymqZhO9vIuqaaWZIWEfdMkFx/view?usp=sharing"
+          href="https://drive.google.com/file/d/1LuWTdChVmG-XTV7KamTrdwlekVgFTkdm/view?usp=sharing"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
